@@ -1,6 +1,6 @@
 'use strict';
 
-var myapp = angular.module('ngTimeago', []);
+var myapp = angular.module('ngtimeago', []);
 
 myapp.filter('timeago', function() {
         return function(input, p_allowFuture) {
