@@ -1,8 +1,8 @@
 'use strict';
 
-var catalyst = angular.module('ng-timeago', []);
+var myapp = angular.module('ng-timeago', []);
 
-catalyst.filter('timeago', function() {
+myapp.filter('timeago', function() {
         return function(input, p_allowFuture) {
             var substitute = function (stringOrFunction, number, strings) {
                     var string = $.isFunction(stringOrFunction) ? stringOrFunction(number, dateDifference) : stringOrFunction;
