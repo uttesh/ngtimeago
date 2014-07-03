@@ -21,7 +21,6 @@ NO NEED TO INJECT in controller directly use in html.
 
 ## Rendering
 
-There is a custom filter called `startFrom` to help you rendering items per page.
 
 ```
                                 <p>
@@ -35,7 +34,6 @@ There is a custom filter called `startFrom` to help you rendering items per page
                                 </p>
 ```
 
-The code above will also set the class "active" on the span for the current page number. Note that the first page is actually __0__ hence the {{n + 1}}.
 
 ## Contributions
 
