@@ -1,6 +1,6 @@
 'use strict';
 
-var catalyst = angular.module('ng-timeago', []);
+var catalyst = angular.module('ngtimeago', []);
 
 catalyst.filter('timeago', function() {
         return function(input, p_allowFuture) {
