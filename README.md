@@ -50,5 +50,4 @@ For problems/suggestions please create an issue on Github.
 
 ## Credits
 
-## * AngularJS time: [http://jsfiddle.net/i_woody/cnL5T/)
 * Other uknown JSFiddles
