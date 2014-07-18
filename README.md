@@ -9,6 +9,11 @@ Mostly based on various snippets which I found on JSFiddle, with some changes by
 ```
 bower install ng-timeago
 ```
+new version
+```
+bower install ng-timeago0.0.2
+```
+
 or alternatively download and include `ngtimeago.js` after `angular.min.js`.
 
 Add the `ngtimeago` module as a dependency when creating your app, e.g.
@@ -45,5 +50,4 @@ For problems/suggestions please create an issue on Github.
 
 ## Credits
 
-* AngularJS time: [http://jsfiddle.net/i_woody/cnL5T/)
 * Other uknown JSFiddles
