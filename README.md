@@ -19,7 +19,7 @@ or alternatively download and include `ngtimeago.js` after `angular.min.js`.
 Add the `ngtimeago` module as a dependency when creating your app, e.g.
 
 ```
-var app = angular.module('myApp', ['ngTimeago']);`
+var app = angular.module('myApp', ['ngtimeago']);`
 ```
 
 NO NEED TO INJECT in controller directly use in html.
