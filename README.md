@@ -1,4 +1,5 @@
 # ng-timeago
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/uttesh/ngtimeago?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Is an AngularJS module for simple time ago on static data. No directives here, just a filters.
 
