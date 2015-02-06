@@ -51,3 +51,7 @@ For problems/suggestions please create an issue on Github.
 ## Credits
 
 * Other uknown JSFiddles
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/uttesh/ngtimeago/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
