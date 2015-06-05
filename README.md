@@ -1,4 +1,4 @@
-# ng-timeago
+# ng-timeago <a href="http://uttesh.github.io/ngtimeago/">demo</a>
 
 Is an AngularJS module for simple time ago on static data. No directives here, just a filters.
 
