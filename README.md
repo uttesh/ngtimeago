@@ -28,15 +28,11 @@ NO NEED TO INJECT in controller directly use in html.
 
 
 ```
-                                <p>
-                                    
-                                    <small>
-
-                                        posted {{createdOn|timeago}} by uttesh
-
-
-                                    </small>
-                                </p>
+<p>
+  <small>
+    posted {{createdOn|timeago}} by uttesh
+  </small>
+</p>
 ```
 
 
@@ -47,6 +43,7 @@ For problems/suggestions please create an issue on Github.
 ## Contributors
 
 * [@uttesh](https://twitter.com/uttesh)
+* [@thomasthiebaud](https://github.com/thomasthiebaud)
 
 ## Credits
 
