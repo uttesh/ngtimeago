@@ -1,6 +1,6 @@
 {
-	"name": "ng-timeago",
-	"main": "./ngtimeago.js",
+    "name": "ng-timeago",
+ 	"main": "./ngtimeago.js",
 	"version": "0.0.1",
 	"keywords": [
 		"angular",
@@ -9,7 +9,7 @@
 		"fbliketime",
 		"time"
 	],
-	"dependencies": {
-		"angular": "*"
-	}
+    "dependencies": {
+        "angular": "*"
+    }
 }
