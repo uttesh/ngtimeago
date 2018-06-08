@@ -5,7 +5,7 @@ var catalyst = angular.module('ngtimeago', []);
 
 catalyst.filter('timeago', function() {
         return function(input, p_allowFuture) {
-		
+
             var substitute = function (stringOrFunction, number, strings) {
                     var string = angular.isFunction(stringOrFunction) ? stringOrFunction(number, dateDifference) : stringOrFunction;
                     var value = (strings.numbers && strings.numbers[number]) || number;
@@ -18,18 +18,18 @@ catalyst.filter('timeago', function() {
                 strings= {
                     prefixAgo: '',
                     prefixFromNow: '',
-                    suffixAgo: "ago",
+                    suffixAgo: "", // ago
                     suffixFromNow: "from now",
-                    seconds: "less than a minute",
-                    minute: "about a minute",
-                    minutes: "%d minutes",
-                    hour: "about an hour",
-                    hours: "about %d hours",
-                    day: "a day",
+                    seconds: "~ a min",
+                    minute: "a min",
+                    minutes: "%d mins",
+                    hour: "1 hour",
+                    hours: "%d hours",
+                    day: "1 day",
                     days: "%d days",
-                    month: "about a month",
+                    month: "1 month",
                     months: "%d months",
-                    year: "about a year",
+                    year: "1 year",
                     years: "%d years"
                 },
                 dateDifference = nowTime - date,
@@ -40,11 +40,11 @@ catalyst.filter('timeago', function() {
                 days = hours / 24,
                 years = days / 365,
                 separator = strings.wordSeparator === undefined ?  " " : strings.wordSeparator,
-            
-               
+
+
                 prefix = strings.prefixAgo,
                 suffix = strings.suffixAgo;
-                
+
             if (allowFuture) {
                 if (dateDifference < 0) {
                     prefix = strings.prefixFromNow;
@@ -68,8 +68,6 @@ catalyst.filter('timeago', function() {
 			words.replace(/ /g, '')
 			suffix.replace(/ /g, '')
 			return (prefix+' '+words+' '+suffix+' '+separator);
-            
+
         };
     });
-
-    
