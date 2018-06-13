@@ -18,7 +18,7 @@ catalyst.filter('timeago', function() {
                 strings= {
                     prefixAgo: '',
                     prefixFromNow: '',
-                    suffixAgo: "", // ago
+                    suffixAgo: "ago",
                     suffixFromNow: "from now",
                     seconds: "~ a min",
                     minute: "a min",
